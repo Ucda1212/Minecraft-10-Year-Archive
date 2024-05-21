@@ -1,0 +1,2 @@
+scoreboard players set score puzzlewars.current_score 0
+execute as @e[type=minecraft:glow_item_frame,x=245,y=82,z=359,dz=4,dy=4,dx=1,nbt={ItemRotation:0b}] run scoreboard players add score puzzlewars.current_score 1

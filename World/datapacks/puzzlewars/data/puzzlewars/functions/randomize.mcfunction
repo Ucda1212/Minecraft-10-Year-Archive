@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:glow_item_frame,x=245,y=82,z=359,dz=4,dy=3,dx=1] store result entity @s ItemRotation byte 1 run random value 0..3

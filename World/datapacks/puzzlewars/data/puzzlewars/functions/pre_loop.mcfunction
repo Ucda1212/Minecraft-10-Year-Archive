@@ -1,0 +1,1 @@
+execute as @a[x=245,y=82,z=359,dz=4,dy=3,dx=4,limit=1] run function puzzlewars:loop
