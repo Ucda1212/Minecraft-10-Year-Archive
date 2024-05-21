@@ -1,0 +1,26 @@
+{
+    "replace": true,
+    "values": [
+        "skeleton",
+        "zombie",
+        "spider",
+        "creeper",
+        "sheep",
+        "cow",
+        "chicken",
+        "pig",
+        "villager",
+        "slime",
+        "blaze",
+        "piglin",
+        "fox",
+        "panda",
+        "polar_bear",
+        "wandering_trader",
+        "snow_golem",
+        "pillager",
+        "ravager",
+        "bee",
+        "goat"
+    ]
+}

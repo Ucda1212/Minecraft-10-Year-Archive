@@ -1,0 +1,14 @@
+execute positioned 273 106 116 run function boom:spawn/blaze
+execute positioned 275 106 116 run function boom:spawn/chicken
+execute positioned 277 106 116 run function boom:spawn/cow
+execute positioned 279 106 116 run function boom:spawn/fox
+execute positioned 281 106 116 run function boom:spawn/panda
+execute positioned 283 106 116 run function boom:spawn/pig
+execute positioned 285 106 116 run function boom:spawn/piglin
+execute positioned 287 106 116 run function boom:spawn/polar_bear
+execute positioned 289 106 116 run function boom:spawn/sheep
+execute positioned 291 106 116 run function boom:spawn/skeleton
+execute positioned 293 106 116 run function boom:spawn/slime
+execute positioned 295 106 116 run function boom:spawn/spider
+execute positioned 297 106 116 run function boom:spawn/tnt
+execute positioned 299 106 116 run function boom:spawn/villager

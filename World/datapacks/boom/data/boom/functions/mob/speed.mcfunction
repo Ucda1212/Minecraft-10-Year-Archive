@@ -1,0 +1,1 @@
+summon area_effect_cloud ~ ~ ~ {Tags:["boom.effect","boom.speed"],Radius:3f,Duration:120,DurationOnUse:3f,potion_contents:{custom_effects:[{id:"minecraft:speed",amplifier:2,duration:60}]}}

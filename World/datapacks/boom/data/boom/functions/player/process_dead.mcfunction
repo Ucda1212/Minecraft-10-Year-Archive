@@ -1,0 +1,1 @@
+execute as @a[gamemode=adventure,tag=boom.dead] at @s run function boom:player/die

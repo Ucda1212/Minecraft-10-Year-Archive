@@ -1,0 +1,1 @@
+summon minecraft:potion ~ ~ ~ {Item:{id:"minecraft:splash_potion",Count:1b,components:{"minecraft:potion_contents":{potion:"minecraft:healing"}}}}

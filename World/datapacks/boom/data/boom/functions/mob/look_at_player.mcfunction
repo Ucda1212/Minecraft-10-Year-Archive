@@ -1,0 +1,1 @@
+execute as @e[type=#boom:mobs,tag=boom.look] at @s run tp @s ~ ~ ~ facing entity @p[gamemode=adventure]
