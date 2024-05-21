@@ -1,0 +1,1 @@
+$execute anchored eyes positioned ^ ^ ^1 positioned ~ ~-1 ~ run particle minecraft:vibration{arrival_in_ticks:5,destination:{type:"block",pos:[$(x), $(y), $(z)]}} ~ ~ ~ 0 0 0 0 1 force @s

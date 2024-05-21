@@ -1,0 +1,5 @@
+
+$execute if score #sec plag.tmp matches ..9 if score #ms plag.tmp matches ..9 run data modify storage plag:elytra scores[{uuid:$(UUID)}].time set value '[{"color": "gold","text":"$(min):0$(sec).0$(ms)"}]'
+$execute if score #sec plag.tmp matches 10.. if score #ms plag.tmp matches ..9 run data modify storage plag:elytra scores[{uuid:$(UUID)}].time set value '[{"color": "gold","text":"$(min):$(sec).0$(ms)"}]'
+$execute if score #sec plag.tmp matches ..9 if score #ms plag.tmp matches 10.. run data modify storage plag:elytra scores[{uuid:$(UUID)}].time set value '[{"color": "gold","text":"$(min):0$(sec).$(ms)"}]'
+$execute if score #sec plag.tmp matches 10.. if score #ms plag.tmp matches 10.. run data modify storage plag:elytra scores[{uuid:$(UUID)}].time set value '[{"color": "gold","text":"$(min):$(sec).$(ms)"}]'

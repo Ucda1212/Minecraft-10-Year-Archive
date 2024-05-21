@@ -1,0 +1,1 @@
+execute positioned -98 85.7 164 run function plagiatus:bridge/start {tag: "plag.to_chateau", rot: [90f, 0f]}

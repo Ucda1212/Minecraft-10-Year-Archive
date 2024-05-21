@@ -1,0 +1,2 @@
+$summon chicken ~ ~ ~ {Invulnerable:1b, NoGravity: 1b, Silent:1b, Tags:["plag.bridge", "plag.new", $(tag)],DeathLootTable: "minecraft:empty", Rotation: $(rot)}
+ride @s mount @e[limit=1,sort=nearest,tag=plag.new]
