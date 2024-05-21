@@ -1,0 +1,1 @@
+scoreboard players set .credits zeronia.rollingcredits 1

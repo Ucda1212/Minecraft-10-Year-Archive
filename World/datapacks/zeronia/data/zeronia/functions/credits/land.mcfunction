@@ -1,0 +1,1 @@
+playsound minecraft:block.anvil.place ambient @a -42 69 -18 1 2
