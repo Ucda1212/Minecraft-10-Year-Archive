@@ -1,0 +1,1 @@
+execute unless score @s plag.elytra.best = @s plag.elytra.best run scoreboard players set @s plag.elytra.best 2147483647
