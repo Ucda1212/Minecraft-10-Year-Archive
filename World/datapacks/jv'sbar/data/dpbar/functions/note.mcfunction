@@ -1,0 +1,1 @@
+$particle minecraft:note ~ ~ ~ $(note) 0 0 1 0 force @a[distance=..10]
