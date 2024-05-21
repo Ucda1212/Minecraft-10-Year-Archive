@@ -1,0 +1,1 @@
+tellraw ItsRishon "Loaded TNTRUN!"
