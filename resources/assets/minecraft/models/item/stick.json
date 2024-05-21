@@ -1,0 +1,47 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/stick"
+    },
+    
+    "overrides": [
+        {"predicate": {"custom_model_data":1050001}, "model": "neylz:npc/mainbody"},
+        {"predicate": {"custom_model_data":1050002}, "model": "neylz:volley/terrain"},
+        {"predicate": {"custom_model_data":1050003}, "model": "neylz:seahorse/sample"},
+        {"predicate": {"custom_model_data":4000001}, "model": "plagiatus:item/villager/stone"},
+        {"predicate": {"custom_model_data":4000002}, "model": "plagiatus:item/villager/bronze"},
+        {"predicate": {"custom_model_data":4000003}, "model": "plagiatus:item/villager/silver"},
+        {"predicate": {"custom_model_data":4000004}, "model": "plagiatus:item/villager/gold"},
+        {"predicate": {"custom_model_data":4000005}, "model": "plagiatus:item/presentation/birthday_game"},
+        {"predicate": {"custom_model_data":4000006}, "model": "plagiatus:item/presentation/control"},
+        {"predicate": {"custom_model_data":4000007}, "model": "plagiatus:item/presentation/corte_madera"},
+        {"predicate": {"custom_model_data":4000008}, "model": "plagiatus:item/presentation/easter_eggcitement"},
+        {"predicate": {"custom_model_data":4000009}, "model": "plagiatus:item/presentation/ludo"},
+        {"predicate": {"custom_model_data":4000010}, "model": "plagiatus:item/presentation/naughty_list"},
+        {"predicate": {"custom_model_data":4000011}, "model": "plagiatus:item/presentation/negentropy"},
+        {"predicate": {"custom_model_data":4000012}, "model": "plagiatus:item/presentation/pumpkin_party_remastered"},
+        {"predicate": {"custom_model_data":4000013}, "model": "plagiatus:item/presentation/pumpkin_party"},
+        {"predicate": {"custom_model_data":4000014}, "model": "plagiatus:item/presentation/slay"},
+        {"predicate": {"custom_model_data":4000015}, "model": "plagiatus:item/presentation/snowbound"},
+        {"predicate": {"custom_model_data":4000016}, "model": "plagiatus:item/presentation/plagiatus"},
+        {"predicate": {"custom_model_data":4000017}, "model": "plagiatus:item/elytra/gate_left"},
+        {"predicate": {"custom_model_data":4000018}, "model": "plagiatus:item/elytra/gate_right"},
+        {"predicate": {"custom_model_data":4000019}, "model": "plagiatus:item/elytra/trophy_bronze"},
+        {"predicate": {"custom_model_data":4000020}, "model": "plagiatus:item/elytra/trophy_silver"},
+        {"predicate": {"custom_model_data":4000021}, "model": "plagiatus:item/elytra/trophy_gold"},
+        {"predicate": {"custom_model_data":4000022}, "model": "plagiatus:item/trophy/bronze_sheep_trophy"},
+        {"predicate": {"custom_model_data":4000023}, "model": "plagiatus:item/trophy/maze_trophy_bronze"},
+        {"predicate": {"custom_model_data":4000024}, "model": "plagiatus:item/trophy/maze_trophy_silver"},
+        {"predicate": {"custom_model_data":4000025}, "model": "plagiatus:item/trophy/maze_trophy_gold"},
+        {"predicate": {"custom_model_data":4000026}, "model": "plagiatus:item/trophy/te_trophy_bronze"},
+        {"predicate": {"custom_model_data":4000027}, "model": "plagiatus:item/trophy/te_trophy_silver"},
+        {"predicate": {"custom_model_data":4000028}, "model": "plagiatus:item/trophy/te_trophy_gold"},
+        {"predicate": {"custom_model_data":4000029}, "model": "plagiatus:item/trophy/celeb_trophy"},
+        {"predicate": {"custom_model_data":4000030}, "model": "plagiatus:item/trophy/zeronia_trophy_bronze"},
+        {"predicate": {"custom_model_data":4000031}, "model": "plagiatus:item/trophy/zeronia_trophy_silver"},
+        {"predicate": {"custom_model_data":4000032}, "model": "plagiatus:item/trophy/zeronia_trophy_gold"},
+        {"predicate": {"custom_model_data":4000033}, "model": "plagiatus:item/trophy/trophy_trophy"},
+        {"predicate": {"custom_model_data":4000099}, "model": "plagiatus:item/trophy/trophy_unknown"},
+        {"predicate": {"custom_model_data":4000100}, "model": "plagiatus:item/elytra/elytra_model"}
+    ]
+}

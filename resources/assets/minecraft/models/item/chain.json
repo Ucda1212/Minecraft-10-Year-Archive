@@ -1,0 +1,17 @@
+{
+	"parent": "item/generated",
+	"textures": {
+        "layer0": "item/chain"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data":32001}, "model": "titano:block/eroxen" },
+		{ "predicate": { "custom_model_data":32002}, "model": "titano:block/sallan" },
+		{ "predicate": { "custom_model_data":32003}, "model": "titano:block/tado" },
+		{ "predicate": { "custom_model_data":32004}, "model": "titano:block/logo" },
+		{ "predicate": { "custom_model_data":32005}, "model": "titano:block/suit_1" },
+		{ "predicate": { "custom_model_data":32006}, "model": "titano:block/portal1" },
+		{ "predicate": { "custom_model_data":32007}, "model": "titano:block/portal2" },
+		{ "predicate": { "custom_model_data":32008}, "model": "titano:block/trophy" },
+		{ "predicate": { "custom_model_data":32009}, "model": "titano:block/pulluxx" }
+	]
+}
