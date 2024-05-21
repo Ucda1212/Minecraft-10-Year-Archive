@@ -1,0 +1,45 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000023
+            }
+        },
+        "title": {"text": "Bronze Maze Trophy", "color":"#cd7f32"},
+        "description": "You got through the first parts of the maze"
+    },
+    "parent": "trophy:trophy_room",
+    "criteria": {
+        "location": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "position": {
+                            "x": {
+                                "min": -108,
+                                "max": -70
+                            },
+                            "y": {
+                                "min": -45,
+                                "max": -40
+                            },
+                            "z": {
+                                "min": 253,
+                                "max": 273
+                            }
+                        }
+                    },
+                    "type_specific": {
+                        "type": "player",
+                        "gamemode": "adventure"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "plagiatus:trophy/achieve/maze_bronze"
+    }
+}

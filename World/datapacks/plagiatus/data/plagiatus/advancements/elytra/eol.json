@@ -1,0 +1,6 @@
+{
+    "parent": "plagiatus:elytra/gold",
+    "criteria": {
+        "tick": {"trigger": "tick"}
+    }
+}

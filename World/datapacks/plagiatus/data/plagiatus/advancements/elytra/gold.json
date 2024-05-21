@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000021
+            }
+        },
+        "title": {"text":"Golden Elytra Trophy", "color":"gold"},
+        "description": [{"text":"Finish the "},{"text":"Elytra Flight", "color": "aqua"}, {"text":" in less than 3:00 min."}],
+        "frame": "challenge"
+    },
+    "parent": "plagiatus:elytra/silver",
+    "criteria": {
+        "finished": {"trigger": "impossible"}
+    },
+    "rewards": {
+        "function": "plagiatus:trophy/achieve/elytra_gold"
+    }
+}

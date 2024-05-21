@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000001
+            }
+        },
+        "title": "Villager #5",
+        "description": "Next to a mansion this one performs its silent duty."
+    },
+    "parent": "plagiatus:villager/v4",
+    "criteria": {
+        "one": {"trigger": "impossible"}
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000003
+            }
+        },
+        "title": {"text":"Silver Villager Trophy", "color": "#d0d0d0"},
+        "description": "Find 4 villager statues (and click them)",
+        "frame": "goal"
+    },
+    "parent": "plagiatus:villager/trophy/bronze",
+    "criteria": {
+        "v1": {"trigger": "impossible"}
+    },
+    "rewards": {
+        "function": "plagiatus:trophy/achieve/villager_silver"
+    }
+}

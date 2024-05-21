@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000001
+            }
+        },
+        "title": "Villager #4",
+        "description": "This one oversees various rockets next to the water."
+    },
+    "parent": "plagiatus:villager/v3",
+    "criteria": {
+        "one": {"trigger": "impossible"}
+    }
+}

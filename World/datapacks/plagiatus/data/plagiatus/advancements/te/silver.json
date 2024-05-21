@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000027
+            }
+        },
+        "title": {"text":"Silver Toxic Escape Trophy", "color": "#d0d0d0"},
+        "description": "Finish the toxic escape with full health!",
+        "frame": "goal"
+    },
+    "parent": "plagiatus:te/bronze",
+    "criteria": {
+        "location": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "plagiatus:trophy/achieve/te_silver"
+    }
+}

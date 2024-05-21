@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000028
+            }
+        },
+        "title": {"text":"Golden Toxic Escape Trophy", "color":"gold"},
+        "description": "Finish the toxic escape in under 45 seconds!",
+        "frame": "challenge"
+    },
+    "parent": "plagiatus:te/silver",
+    "criteria": {
+        "location": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "plagiatus:trophy/achieve/te_gold"
+    }
+}

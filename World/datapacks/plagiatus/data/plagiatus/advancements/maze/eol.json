@@ -1,0 +1,6 @@
+{
+    "parent": "plagiatus:maze/gold",
+    "criteria": {
+        "tick": {"trigger": "tick"}
+    }
+}

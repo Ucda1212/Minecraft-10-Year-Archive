@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000031
+            }
+        },
+        "title": {"text":"Silver Zeronia Trophy", "color": "#d0d0d0"},
+        "description": "Unlock 2 Zeronia Island Advancements",
+        "frame": "goal"
+    },
+    "parent": "plagiatus:stuffy/bronze",
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "plagiatus:trophy/achieve/stuffy_silver"
+    }
+}

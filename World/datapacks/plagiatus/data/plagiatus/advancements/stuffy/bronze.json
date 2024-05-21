@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000030
+            }
+        },
+        "title": {"text": "Bronze Zeronia Trophy", "color":"#cd7f32"},
+        "description": "Unlock 1 Zeronia Island Advancement"
+    },
+    "parent": "trophy:trophy_room",
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "plagiatus:trophy/achieve/stuffy_bronze"
+    }
+}

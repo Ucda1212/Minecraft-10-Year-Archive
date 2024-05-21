@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000001
+            }
+        },
+        "title": "Villager #1",
+        "description": "This one greets newcomers."
+    },
+    "parent": "trophy:root",
+    "criteria": {
+        "one": {"trigger": "impossible"}
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000002
+            }
+        },
+        "title": {"text":"Bronze Villager Trophy", "color":"#cd7f32"},
+        "description": "Find 2 villager statues (and click them)",
+        "frame": "task"
+    },
+    "parent": "trophy:trophy_room",
+    "criteria": {
+        "v1": {"trigger": "impossible"}
+    },
+    "rewards": {
+        "function": "plagiatus:trophy/achieve/villager_bronze"
+    }
+}

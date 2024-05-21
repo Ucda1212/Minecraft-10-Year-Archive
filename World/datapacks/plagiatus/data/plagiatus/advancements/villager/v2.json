@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000001
+            }
+        },
+        "title": "Villager #2",
+        "description": "This one keeps an eye on the corals around Zeronia island."
+    },
+    "parent": "plagiatus:villager/v1",
+    "criteria": {
+        "one": {"trigger": "impossible"}
+    }
+}

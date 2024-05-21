@@ -1,0 +1,6 @@
+{
+    "parent": "plagiatus:te/gold",
+    "criteria": {
+        "tick": {"trigger": "tick"}
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000001
+            }
+        },
+        "title": "Villager #6",
+        "description": "This one got lost in the Gardens of Babble. You need to take two leaps to find it."
+    },
+    "parent": "plagiatus:villager/v5",
+    "criteria": {
+        "one": {"trigger": "impossible"}
+    }
+}

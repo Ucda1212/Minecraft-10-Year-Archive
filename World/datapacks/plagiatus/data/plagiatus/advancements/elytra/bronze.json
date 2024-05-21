@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000019
+            }
+        },
+        "title": {"text":"Bronze Elytra Trophy", "color":"#cd7f32"},
+        "description": [{"text":"Finish the "},{"text":"Elytra Flight", "color": "aqua"}],
+        "frame": "task"
+    },
+    "parent": "trophy:trophy_room",
+    "criteria": {
+        "finished": {"trigger": "impossible"}
+    },
+    "rewards": {
+        "function": "plagiatus:trophy/achieve/elytra_bronze"
+    }
+}

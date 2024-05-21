@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000026
+            }
+        },
+        "title": {"text": "Bronze Toxic Escape Trophy", "color":"#cd7f32"},
+        "description": "Finish the toxic escape"
+    },
+    "parent": "trophy:trophy_room",
+    "criteria": {
+        "location": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "plagiatus:trophy/achieve/te_bronze"
+    }
+}

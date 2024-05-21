@@ -1,0 +1,6 @@
+{
+    "parent": "plagiatus:stuffy/gold",
+    "criteria": {
+        "tick": {"trigger": "tick"}
+    }
+}

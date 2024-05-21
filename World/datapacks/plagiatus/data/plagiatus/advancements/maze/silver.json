@@ -1,0 +1,46 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000024
+            }
+        },
+        "title": {"text":"Silver Maze Trophy", "color": "#d0d0d0"},
+        "description": "You may or may not be over halfway there!",
+        "frame": "goal"
+    },
+    "parent": "plagiatus:maze/bronze",
+    "criteria": {
+        "location": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "position": {
+                            "x": {
+                                "min": -96,
+                                "max": -83
+                            },
+                            "y": {
+                                "min": -31,
+                                "max": -28
+                            },
+                            "z": {
+                                "min": 320,
+                                "max": 328
+                            }
+                        }
+                    },
+                    "type_specific": {
+                        "type": "player",
+                        "gamemode": "adventure"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "plagiatus:trophy/achieve/maze_silver"
+    }
+}

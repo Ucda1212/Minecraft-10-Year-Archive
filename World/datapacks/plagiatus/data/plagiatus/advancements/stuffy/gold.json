@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000032
+            }
+        },
+        "title": {"text":"Golden Zeronia Trophy", "color":"gold"},
+        "description": "Unlock 3 Zeronia Island Advancements",
+        "frame": "challenge"
+    },
+    "parent": "plagiatus:stuffy/silver",
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "plagiatus:trophy/achieve/stuffy_gold"
+    }
+}

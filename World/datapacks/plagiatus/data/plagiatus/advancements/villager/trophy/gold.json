@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stick",
+            "components": {
+                "minecraft:custom_model_data": 4000004
+            }
+        },
+        "title": {"text":"Golden Villager Trophy", "color":"gold"},
+        "description": {"text": "Find all villager statues (and click them)"},
+        "frame": "challenge"
+    },
+    "parent": "plagiatus:villager/trophy/silver",
+    "criteria": {
+        "v1": {"trigger": "impossible"}
+    },
+    "rewards": {
+        "function": "plagiatus:trophy/achieve/villager_gold"
+    }
+}

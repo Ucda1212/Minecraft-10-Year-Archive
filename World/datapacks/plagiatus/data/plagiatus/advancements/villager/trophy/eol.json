@@ -1,0 +1,6 @@
+{
+    "parent": "plagiatus:villager/trophy/gold",
+    "criteria": {
+        "tick": {"trigger": "tick"}
+    }
+}
