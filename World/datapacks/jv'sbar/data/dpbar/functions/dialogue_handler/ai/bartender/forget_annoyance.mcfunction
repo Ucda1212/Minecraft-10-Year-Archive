@@ -1,0 +1,1 @@
+execute if score @s dpbar.last_entered matches 3.. run scoreboard players remove @s dpbar.times_annoyed 1

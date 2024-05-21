@@ -1,0 +1,5 @@
+execute unless score @s dpbar.last_annoyance matches 1.. run data modify storage dpbar:storage last_annoyance set value "you actually did nothing wrong"
+execute if score @s dpbar.last_annoyance matches 1 run data modify storage dpbar:storage last_annoyance set value "you just materialized out of thin air"
+execute if score @s dpbar.last_annoyance matches 2 run data modify storage dpbar:storage last_annoyance set value "you were going out and back in several times for some reason"
+execute if score @s dpbar.last_annoyance matches 3 run data modify storage dpbar:storage last_annoyance set value "you were going in and out several times"
+execute if score @s dpbar.last_annoyance matches 4 run data modify storage dpbar:storage last_annoyance set value "you were harassing my costumers"
