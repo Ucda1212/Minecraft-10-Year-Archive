@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+              "minecraft:profile": {
+                "id": [-1860871994, 1125404883, -1975929695, 597285544],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjBhYmQ1N2Y2NGJhYTg4ZDZjOTgwMTk0YzQ3Y2QxOGI1Y2ViMjI5NWJlNTliZGMxN2E2Njc1NTljYjVkMDg2NyJ9fX0="
+                  }
+                ]
+              }
+            }
+          },
+        "title": "Meet the Translators",
+        "description": "Interact with our tribute to our lovely translators",
+        "frame": "task"
+    },
+    "parent": "zeronia:rewards/zeronia",
+    "criteria": {
+        "impossible": {"trigger": "impossible"}
+    },
+    "rewards": {
+      "function": "zeronia:rewards/check"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "position": {
+                "x": {
+                  "min": -44,
+                  "max": -35
+                },
+                "y": {
+                  "min": 68,
+                  "max": 75
+                },
+                "z": {
+                  "min": -25,
+                  "max": -13
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "zeronia:credits/advancement"
+    }
+  }
+  

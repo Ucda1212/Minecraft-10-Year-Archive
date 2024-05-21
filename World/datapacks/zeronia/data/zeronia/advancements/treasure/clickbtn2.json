@@ -1,0 +1,38 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:default_block_use",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "position": {
+                  "x": {
+                    "min": 63,
+                    "max": 64
+                  },
+                  "y": {
+                    "min": 69,
+                    "max": 70
+                  },
+                  "z": {
+                    "min": 41,
+                    "max": 42
+                  }
+                },
+                "block": {
+                  "blocks": [
+                    "minecraft:stone_button"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "zeronia:treasure/buttons/click2"
+    }
+  }

@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:command_block"
+        },
+        "title": "Zeronia Island Advancements",
+        "description": "Experience all of Zeronia Island",
+        "frame": "goal"
+    },
+    "parent": "trophy:root",
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+            }
+        }
+    }
