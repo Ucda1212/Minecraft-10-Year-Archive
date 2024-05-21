@@ -1,0 +1,2 @@
+scoreboard players set @s utils.player.return 0
+tellraw @s [{"color":"aqua","text":" Get a new copy of the lobby book by clicking "},{"bold":true,"clickEvent":{"action":"run_command","value":"/trigger lobbybook"},"color":"yellow","hoverEvent":{"action":"show_text","value":[{"text":"Click here!","color":"green"}]},"text":"HERE"}]

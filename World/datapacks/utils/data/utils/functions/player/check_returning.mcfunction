@@ -1,0 +1,1 @@
+execute if entity @s[scores={utils.player.return=1..}] run function #utils:player/returning
