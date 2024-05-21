@@ -1,0 +1,2 @@
+execute if entity @s[tag=!zeronia.translator.actionbar,distance=..4] run function zeronia:translator/actionbar
+execute if entity @s[tag=zeronia.translator.actionbar,distance=4.00000001..] run tag @s remove zeronia.translator.actionbar
