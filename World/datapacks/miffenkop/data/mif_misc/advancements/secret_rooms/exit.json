@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:tropical_fish_bucket"
+        },
+        "title": "Escape the secret rooms",
+        "description": "Find the hidden but intended exit from the secret rooms"
+    },
+    "parent": "mif_misc:secret_rooms/rooms",
+    "criteria": {
+        "location": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "position": {
+                            "x": {
+                                "min": 345,
+                                "max": 349
+                            },
+                            "y": {
+                                "min": -62,
+                                "max": -60
+                            },
+                            "z": {
+                                "min": 105,
+                                "max": 109
+                            }
+                        }
+                    },
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "mif_misc:secret_rooms/rooms": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

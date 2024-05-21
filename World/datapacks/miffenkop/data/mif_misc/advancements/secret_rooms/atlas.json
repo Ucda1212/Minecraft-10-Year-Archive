@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:map"
+        },
+        "title": "Old Atlas",
+        "description": "Find your way to the old atlas room"
+    },
+    "parent": "mif_misc:secret_rooms/find",
+    "criteria": {
+        "location": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "position": {
+                            "x": {
+                                "min": 1,
+                                "max": 8
+                            },
+                            "y": {
+                                "min": -1,
+                                "max": 4
+                            },
+                            "z": {
+                                "min": -12,
+                                "max": 0
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

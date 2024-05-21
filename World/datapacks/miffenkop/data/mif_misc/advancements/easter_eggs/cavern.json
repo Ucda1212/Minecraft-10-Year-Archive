@@ -1,0 +1,41 @@
+{
+  "display": {
+      "icon": {
+          "id": "minecraft:chest"
+      },
+      "title": "Legacy Map",
+      "description": "Find the Cavern map",
+      "frame": "challenge",
+      "show_toast": true,
+      "hidden": true
+  },
+  "parent": "trophy:root",
+  "criteria": {
+      "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+              "player": [
+                  {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                          "position": {
+                              "x": {
+                                  "min": -682,
+                                  "max": -648
+                              },
+                              "y": {
+                                  "min": 37,
+                                  "max": 115
+                              },
+                              "z": {
+                                  "min": 18,
+                                  "max": 53
+                              }
+                          }
+                      }
+                  }
+              ]
+          }
+        }
+    }
+}

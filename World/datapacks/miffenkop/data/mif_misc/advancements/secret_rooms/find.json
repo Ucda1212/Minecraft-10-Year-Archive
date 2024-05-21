@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:oak_fence"
+        },
+        "title": "Big Secret in a Big Block",
+        "description": "Find the entrance to the secret rooms"
+    },
+    "parent": "trophy:root",
+    "criteria": {
+        "location": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "position": {
+                            "x": {
+                                "min": 364,
+                                "max": 372
+                            },
+                            "y": {
+                                "min": -60,
+                                "max": -55
+                            },
+                            "z": {
+                                "min": 123,
+                                "max": 129
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

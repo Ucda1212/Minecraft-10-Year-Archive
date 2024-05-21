@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:spruce_door"
+        },
+        "title": "The actual entrance",
+        "description": "Find the ACTUAL entrance to the secret creator rooms"
+    },
+    "parent": "mif_misc:secret_rooms/find",
+    "criteria": {
+        "location": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "position": {
+                            "x": {
+                                "min": 343,
+                                "max": 348
+                            },
+                            "y": {
+                                "min": -63,
+                                "max": -60
+                            },
+                            "z": {
+                                "min": 117,
+                                "max": 119
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
