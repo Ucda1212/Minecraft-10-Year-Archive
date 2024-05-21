@@ -1,0 +1,15 @@
+{
+    "pack": {
+        "name": "Common functionallity to prevent duplication",
+        "description": "verart.org",
+        "pack_format": 26
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "advancements/.*"
+            }
+        ]
+    }
+}
