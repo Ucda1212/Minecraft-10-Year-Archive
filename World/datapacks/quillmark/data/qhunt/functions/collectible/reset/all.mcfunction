@@ -1,0 +1,1 @@
+$data modify storage qhunt:var PlayerData.$(UUID0)$(UUID1)$(UUID2)$(UUID3) set value {}

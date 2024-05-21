@@ -1,0 +1,4 @@
+$data modify storage qhunt:var PlayerData.$(UUID0)$(UUID1)$(UUID2)$(UUID3).$(Hunt).Collected append value $(ID)
+execute store result storage qhunt:var PlayerData.Temp.PlayerTotal int 1 run function qhunt:hunt/get_collected with storage qhunt:var PlayerData.Temp
+$tellraw @s ["",{"text":"[","color":"blue"},{"text":"🐡","color":"yellow"},{"text":"] ","color":"blue"},{"text":"You collected "},$(Name),{"text":"! "},"[",{"nbt":"PlayerData.Temp.PlayerTotal","storage":"qhunt:var","color":"blue"},"/",{"text":"$(HuntTotal)","color":"blue"},"]"]
+execute at @s run playsound minecraft:block.beacon.power_select player @s ~ ~ ~ 1 1

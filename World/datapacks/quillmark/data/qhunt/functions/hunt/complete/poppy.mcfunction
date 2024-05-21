@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"[","color":"blue"},{"text":"🐡","color":"yellow"},{"text":"] ","color":"blue"},{"text":"Legends speak of a Tomb of the Forgotten, found within the depths of the caves below. With all the poppies collected, you might be able to gain access.\n(Hint: 75 76 449)"}]

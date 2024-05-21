@@ -1,0 +1,1 @@
+execute at @e[type=interaction,tag=QHunt.Interaction] run particle minecraft:glow ~ ~ ~ 0.05 0.05 0.05 0 1 normal

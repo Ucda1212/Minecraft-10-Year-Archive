@@ -1,0 +1,2 @@
+$tellraw @s ["",{"text":"[","color":"blue"},{"text":"🐡","color":"yellow"},{"text":"] ","color":"blue"},{"text":"You've already collected "},$(Name),{"text":"."}]
+execute at @s run playsound minecraft:block.beacon.deactivate player @s ~ ~ ~ 1 1

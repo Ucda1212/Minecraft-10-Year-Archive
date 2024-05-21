@@ -1,0 +1,1 @@
+$function qhunt:collectible/collect/try with entity @e[limit=1,type=interaction,tag=QHunt.Interaction,nbt={interaction:{player:$(UUID),timestamp:$(Time)L}}] Passengers[0].data 

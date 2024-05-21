@@ -1,0 +1,1 @@
+scoreboard objectives add quillmark_click minecraft.custom:minecraft.talked_to_villager
