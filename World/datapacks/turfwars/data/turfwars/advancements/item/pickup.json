@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:light_blue_wool",
+                "minecraft:blue_wool"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "turfwars:item/pickup"
+    }
+  }
+  

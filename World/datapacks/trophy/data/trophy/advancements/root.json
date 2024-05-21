@@ -1,0 +1,13 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:light_blue_concrete"
+        },
+        "title": "10 Year Realms Anniversary",
+        "description": "What would a good map be without things to achieve?",
+        "background": "minecraft:textures/block/cyan_concrete.png"
+    },
+    "criteria": {
+        "criteria": {"trigger": "location"}
+    }
+}
