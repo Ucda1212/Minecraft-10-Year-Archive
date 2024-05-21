@@ -1,0 +1,5 @@
+tellraw @a[tag=MazeBoi,x=-95,y=82,z=400,dx=20,dy=20,dz=20] ["",{"text":"===================\n","bold":true,"color":"#F6F200"},{"text":"CONGRATULATIONS!!!","bold":true,"italic":true,"color":"#F6F200"},{"text":"\n===================","bold":true,"color":"#F6F200"},{"text":"\n\n"},{"text":"You have bested my maze, and for that, I grant you three things: My respect (That was a tough one!), a cool new trophy (It's in the trophy room!), and a one-way ticket back to the entrance! Just click right ","color":"#FFF396"},{"text":"[here]","italic":true,"color":"#00C3F2","clickEvent":{"action":"run_command","value":"/tp @s -89 75 183"}},{"text":", and you'll be golden!\n\nHave fun out there!! There's a lot of neat builds to explore!","color":"#FFF396"}]
+
+advancement grant @a[tag=MazeBoi,x=-95,y=82,z=400,dx=20,dy=20,dz=20] only plagiatus:maze/gold
+
+tag @a[gamemode=adventure,x=-95,y=82,z=400,dx=20,dy=20,dz=20] remove MazeBoi
