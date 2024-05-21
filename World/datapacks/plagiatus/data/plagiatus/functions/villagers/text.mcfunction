@@ -1,0 +1,3 @@
+kill @e[type=text_display,tag=plag.villager.text]
+summon minecraft:text_display -13 69.2 37 {Tags:["plag.villager.text"],text:'[{"text":"Six villager statues are hidden around the map.\\n\\nClick them to collect them and try to find them all."}]', line_width: 100, width: 3, height: 3, background: -16777216,transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.0f, 0.0f, 0.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.5f, 0.5f, 0.5f]}}
+execute as @e[type=text_display,tag=plag.villager.text] at @s run tp @s ~ ~ ~ 100 0
