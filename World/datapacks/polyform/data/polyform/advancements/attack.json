@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"polyform.table\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "polyform:interaction/left_click"
+   }
+}
+  
