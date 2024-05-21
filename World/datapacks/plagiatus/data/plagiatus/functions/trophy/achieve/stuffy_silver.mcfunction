@@ -1,0 +1,1 @@
+function plagiatus:trophy/achieve {type: "stuffy", value: 2, item: "stick[minecraft:custom_model_data=4000031]"}    
