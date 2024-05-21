@@ -1,0 +1,60 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:stick",
+        "components": {
+          "minecraft:custom_model_data": 4000022
+        }
+      }
+      ,
+      "title": "Sheep Whisperer Trophy",
+      "description": "Talk to all sheep on the Sheep's Ship",
+      "frame": "task"
+    },
+    "parent": "trophy:trophy_room",
+    "criteria": {
+      "speak_with_alberad": {
+        "trigger": "minecraft:impossible"
+      },
+      "speak_with_arbesha": {
+        "trigger": "minecraft:impossible"
+      },
+      "speak_with_beccot": {
+        "trigger": "minecraft:impossible"
+      },
+      "speak_with_benju": {
+        "trigger": "minecraft:impossible"
+      },
+      "speak_with_berneck": {
+        "trigger": "minecraft:impossible"
+      },
+      "speak_with_berris": {
+        "trigger": "minecraft:impossible"
+      },
+      "speak_with_berston": {
+        "trigger": "minecraft:impossible"
+      },
+      "speak_with_cubentio": {
+        "trigger": "minecraft:impossible"
+      },
+      "speak_with_cuybeck": {
+        "trigger": "minecraft:impossible"
+      },
+      "speak_with_nebetin": {
+        "trigger": "minecraft:impossible"
+      },
+      "speak_with_olibena": {
+        "trigger": "minecraft:impossible"
+      },
+      "speak_with_proben": {
+        "trigger": "minecraft:impossible"
+      },
+      "speak_with_ulberg": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "plagiatus:trophy/achieve/sheep"
+    }
+  }
+  

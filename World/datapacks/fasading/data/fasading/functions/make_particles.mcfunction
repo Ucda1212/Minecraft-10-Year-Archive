@@ -1,0 +1,1 @@
+execute positioned 134 60 -67 as @e[distance=..20,type=wither_skeleton,tag=fasading_Ghost] at @s run particle block{block_state:melon} ~ ~1 ~ 0.3 0.3 0.3 1 2 force
