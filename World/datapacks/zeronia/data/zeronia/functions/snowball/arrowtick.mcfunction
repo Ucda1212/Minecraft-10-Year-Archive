@@ -1,0 +1,1 @@
+kill @s[nbt=!{PierceLevel:10b}]

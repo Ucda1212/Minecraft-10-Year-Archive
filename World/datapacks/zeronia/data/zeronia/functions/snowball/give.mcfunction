@@ -1,0 +1,1 @@
+give @s snowball[minecraft:custom_data={zeronia:1b}]

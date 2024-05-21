@@ -1,0 +1,1 @@
+$summon arrow ~ ~ ~ {Tags:["zeronia.snowball.arrow"],Silent:1b,SoundEvent:"entity.snowball.throw",PierceLevel:10,Motion:$(Motion),Color:-1,custom_potion_effects:[{id:"minecraft:instant_health",amplifier:0b,duration:1,show_particles:0b}]}
