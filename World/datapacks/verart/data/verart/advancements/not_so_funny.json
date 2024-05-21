@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": ["minecraft:potion"],
+            "components": {
+              "minecraft:potion_contents": {
+                "custom_color": 16777215
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "verart:pizzeria/drinks/not_so_funny_drink"
+    }
+  }
+  

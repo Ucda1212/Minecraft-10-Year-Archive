@@ -1,0 +1,1 @@
+execute positioned 2 66 -75 if block ~ ~ ~ minecraft:tripwire[powered=true] as @p[distance=0..1] run playsound minecraft:block.amethyst_block.resonate master @s ~ ~ ~ 1 1
