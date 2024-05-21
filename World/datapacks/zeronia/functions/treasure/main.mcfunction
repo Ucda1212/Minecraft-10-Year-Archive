@@ -1,2 +1,0 @@
-#> Plate trigger
-execute as @a[predicate=zeronia:platezone] at @s if block ~ ~ ~ light_weighted_pressure_plate unless block ~ ~ ~ light_weighted_pressure_plate[power=0] run function zeronia:treasure/plate/move

@@ -1,1 +1,0 @@
-particle minecraft:dripping_water 62.78 70 43.94 0.25 0.25 0.25 1 2
