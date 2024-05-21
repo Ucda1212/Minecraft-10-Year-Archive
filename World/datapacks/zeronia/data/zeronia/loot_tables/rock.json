@@ -1,0 +1,41 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flint"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_lore",
+            "entity": "this",
+            "lore": [
+              {
+                "text": "It's just a rock,",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "welcome to Zeronia.",
+                "color": "gray",
+                "italic": false
+              }
+            ],
+            "mode": "replace_all"
+          },
+          {
+            "function": "minecraft:set_name",
+            "entity": "this",
+            "name": {
+              "text": "Rock",
+              "italic": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

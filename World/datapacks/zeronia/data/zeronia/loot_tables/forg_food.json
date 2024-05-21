@@ -1,0 +1,51 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:slime_ball"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_lore",
+            "entity": "this",
+            "lore": [
+              {
+                "text": "A sticky slime ball, used",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "to hold together rockets",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "for riders long ago.",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "(Won't explode FORG!)",
+                "color": "gray",
+                "italic": true
+              }
+            ],
+            "mode": "replace_all"
+          },
+          {
+            "function": "minecraft:set_name",
+            "entity": "this",
+            "name": {
+              "text": "FORG Food",
+              "italic": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
