@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:allium",
+        "components": {
+          "minecraft:custom_model_data": 5
+        }
+      },
+      "title": {
+        "text": "Don't feed the flytraps",
+        "color": "#ACEBBC"
+      },
+      "description": [
+        {
+          "text": "It's not good for their health!"
+        }
+      ],
+      "frame": "task"
+    },
+    "parent": "trophy:root",
+    "criteria": {
+      "finished": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

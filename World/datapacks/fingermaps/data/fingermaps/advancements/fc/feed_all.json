@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:allium",
+        "components": {
+          "minecraft:custom_model_data": 4
+        }
+      },
+      "title": {
+        "text": "Careless Tourist",
+        "color": "#E8DCB3"
+      },
+      "description": [
+        {
+          "text": "You think your clever for feeding them all aren't you?"
+        }
+      ],
+      "frame": "challenge"
+    },
+    "parent": "fingermaps:fc/feed_1",
+    "criteria": {
+      "finished": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  
