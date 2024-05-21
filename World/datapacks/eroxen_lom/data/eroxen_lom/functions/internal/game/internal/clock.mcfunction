@@ -1,0 +1,2 @@
+execute if score .game_on eroxen_lom.x matches 1 run schedule function eroxen_lom:internal/game/internal/clock 1t replace
+execute positioned -148 67 176 as @e[type=snowball,distance=..10] run function eroxen_lom:internal/game/internal/snowball

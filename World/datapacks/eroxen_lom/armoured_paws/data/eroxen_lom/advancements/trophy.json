@@ -1,0 +1,39 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:orange_tulip",
+        "components": {
+          "minecraft:custom_model_data": 2
+        }
+      },
+      "title": [
+        {
+            "text": "Tungsten Blackout Trophy",
+            "color":"dark_aqua"
+        }
+      ],
+      "description": [
+        {
+            "text": "Complete the "
+        },
+        {
+            "text":"Lights Out",
+            "color": "aqua"
+        },
+        {
+            "text": " puzzle"
+        }
+      ],
+      "frame": "task"
+    },
+    "parent": "trophy:trophy_room",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+        "function": "plagiatus:trophy/achieve/blackout"
+    }
+  }
+  

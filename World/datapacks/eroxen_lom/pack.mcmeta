@@ -1,0 +1,16 @@
+{
+    "pack": {
+        "name": "Datapack Template",
+        "description": "Pack description",
+        "pack_format": 26,
+        "supported_formats": [26, 100]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "formats": [27, 100],
+                "directory": "armoured_paws"
+            }
+        ]
+    }
+}

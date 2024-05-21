@@ -1,0 +1,2 @@
+scoreboard players set .game_on eroxen_lom.x 0
+data merge entity @e[type=item_display,tag=eroxen_lom.billboard,limit=1] {start_interpolation:0,interpolation_duration:5,transformation:{scale:[4f,4f,4f]}}
