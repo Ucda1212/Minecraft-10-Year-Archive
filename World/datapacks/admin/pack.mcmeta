@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "name": "admin",
+        "description": "admin tools",
+        "pack_format": 22
+    }
+}
