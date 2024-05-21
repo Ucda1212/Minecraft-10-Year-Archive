@@ -1,0 +1,1 @@
+execute as @a[distance=..4] at @s if block 850 -24 1880 barrier run tp @p 15 100 15 ~ ~
