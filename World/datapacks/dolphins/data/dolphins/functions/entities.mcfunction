@@ -1,0 +1,1 @@
+execute as @s[type=dolphin,tag=dolphins.ride] run function dolphins:ridden

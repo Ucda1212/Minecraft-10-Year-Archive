@@ -1,0 +1,1 @@
+execute as @s[tag=dolphins.rider] run function dolphins:riding
