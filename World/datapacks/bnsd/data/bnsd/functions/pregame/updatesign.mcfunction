@@ -1,0 +1,3 @@
+data merge block -355 72 -198 {front_text:{messages:['{"text":"[JOIN]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function bnsd:pregame/join"}}','{"text":"Toxic Escape","color":"white","bold":true}','{"text":""}','[{"score":{"name":".players","objective":"bnsd.main"},"color":"gold"},{"text":" Players","color":"gold"}]']},is_waxed:1b}
+
+data merge block -356 52 -196 {front_text:{messages:['{"text":"[LEAVE]","color":"red","clickEvent":{"action":"run_command","value":"/function bnsd:pregame/leave"}}','{"text":"Toxic Escape","color":"white","bold":true}','{"text":""}','[{"score":{"name":".players","objective":"bnsd.main"},"color":"gold"},{"text":" Players","color":"gold"}]']},is_waxed:1b}
